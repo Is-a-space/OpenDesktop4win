@@ -7,7 +7,7 @@ Why hasnt someone made it:
 First:
 Create the bat file and put in:
 ```
-taskkill /IM explore.exe
+taskkill /F /IM explorer.exe
 cd /path/to/your/desktop-or-program-path
 program-desktop.exe
 ```
