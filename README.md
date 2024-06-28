@@ -2,7 +2,7 @@
 
 > [!WARNING]
 >
-> READ THIS BEFORE USING
+> READ THIS BEFORE USING!
 > ---
 > You are using this script are your own risk. We are not to be held liable for any issues / data loss you may enounter when running this script. BE WARNED!
 > ---
