@@ -1,16 +1,28 @@
 # OpenDesktop4win
-### a bat file that kills explorer and opens another program and for example a new desktop
 
-Why hasnt someone made it:
-- Windows explorer is good but its unstable. So you can use this framebat and install another desktop
+> [!WARNING]
+>
+> READ THIS BEFORE USING
+> ---
+> You are using this script are your own risk. We are not to be held liable for any issues / data loss you may enounter when running this script. BE WARNED!
+> ---
+> To remove it, simply press `CTRL+ALT+DELETE`, then press `Task Manager`.
+> ## Windows 11
+> Press `Run new task` and type `explorer` and run it. Windows Explorer will relaunch.
+> ## Windows 10
+> Press `File`, then `Run new task`. Type `explorer` and run it. Windows Explorer will relaunch.
 
-First:
-Create the bat file and put in:
-```
-taskkill /F /IM explorer.exe
-cd /path/to/your/desktop-or-program-path
-program-desktop.exe
-```
-Make sure to put admin prompt to off so at startup it wont say: YES OR NO TO OPEN THIS BAT
+> [!IMPORTANT]
+> 
+> Your action is required for this script
+> ---
+> Currently, this script is still in development so most of the features are very limited. Currently you will have to download your own desktop environment and install it. We currently do not provide the desktop environment in the script.
 
-Note: This works and tested on a windows 10 machine
+**What's OpenDesktop4Win?**<br>
+OpenDesktop4Win is a open source .bat file (and hopefully a application soon!) that when executed will kill Windows Explorer and execute a custom desktop environment to get better preformance.
+
+**How do I run it?**<br>
+Simply go to our [Releases](https://github.com/Is-a-space/OpenDesktop4win/releases) and download the latest source code. From there, unzip the file and edit the contents to change where your desktop environment is located. After save the file and run the .bat file.
+
+**Can I make it run on boot?**<br>
+Not yet, but we are making this possible soon!
